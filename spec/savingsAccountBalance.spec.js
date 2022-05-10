@@ -1,7 +1,7 @@
 const { expect } = require("chai");
 const { savingsAccountBalance } = require("../savingsAccountBalance");
 
-describe.only("savingsAccountBalance", () => {
+describe("savingsAccountBalance", () => {
   it("returns 0 when there is not openingSum", () => {
     expect(savingsAccountBalance(0, 2, 20000, 1, 2)).to.deep.equal(0);
   });
