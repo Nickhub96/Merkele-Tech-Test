@@ -6,7 +6,7 @@ const savingsAccountBalance = (
   numMonths
 ) => {
 
-// first I make variables that I can assign the claculations to
+// first I make variables that I can assign interest, tax and newBalance claculations to
   let interest = 0;
   let tax = 0;
   let newBalance = 0;
